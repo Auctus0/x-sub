@@ -1,0 +1,30 @@
+# Rust build artifacts
+/target
+
+# User configuration and API keys (DeepL keys, local ROI/overlay state)
+config.json
+config.*.json
+*.config.json
+*.bak
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Debug screenshots, captured frames, and logs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.log
+*.txt
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
